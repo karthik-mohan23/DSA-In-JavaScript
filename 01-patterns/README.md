@@ -70,3 +70,26 @@ function printPattern3(n) {
 
 console.log(printPattern3(5));
 ```
+
+### Pattern 4
+
+1<br>
+22<br>
+333<br>
+4444<br>
+55555
+
+```javascript
+function printPattern4(n) {
+  let pattern4 = "";
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= i; j++) {
+      pattern4 += i;
+    }
+    pattern4 += "\n";
+  }
+  return pattern4;
+}
+
+console.log(printPattern4(5));
+```
