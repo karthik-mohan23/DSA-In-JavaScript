@@ -4,10 +4,10 @@ This contains all the important pattern problems that you must solve before star
 
 ### Pattern 1
 
-xxxxx
-xxxxx
-xxxxx
-xxxxx
+xxxxx<br>
+xxxxx<br>
+xxxxx<br>
+xxxxx<br>
 xxxxx
 
 ```javascript
