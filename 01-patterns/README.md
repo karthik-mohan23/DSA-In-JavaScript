@@ -24,3 +24,26 @@ function printPattern1(n) {
 
 console.log(printPattern1(5));
 ```
+
+### Pattern 2
+
+x<br>
+xx<br>
+xxx<br>
+xxxx<br>
+xxxxx
+
+```javascript
+function printPattern2(n) {
+  let pattern2 = "";
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= i; j++) {
+      pattern2 += "*";
+    }
+    pattern2 += "\n";
+  }
+  return pattern2;
+}
+
+console.log(printPattern2(5));
+```
